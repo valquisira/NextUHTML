@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Educación | Hoja de vida</title>
+  </head>
+  <body>
+    <svg>
+      <image xlink:href="img/Logo.svg" width="200px" height=170px></image>
+    </svg>
+    <h1>Curriculum Vitae</h1>
+    <h2>Victor Alquisira</h2>
+    <h3>Agosto 15, 1988 | Ocoyoacac, Estado de México</h3>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><b>Educación</b></li>
+        <li><a href="experiencia.html">experiencia.html</a></li>
+      </ul>
+    </nav>
+    <h2>Educación</h2>
+    <table border="1">
+     <thead>
+      <tr>
+         <th>Año</th>
+         <th>Institución</th>
+         <th>Lugar</th>
+         <th>¿Culminó?</th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+         <td>2015</td>
+         <td>UVM Toluca</td>
+         <td>Toluca, Estado de México</td>
+         <td>Si</td>
+      </tr>
+      <tr>
+         <td>2006</td>
+         <td>ICT</td>
+         <td>Santiago Tianguistenco, Estado de México</td>
+         <td>Si</td>
+      </tr>
+     </tbody>
+    </table>
+
+
+    <h2>Agregar estudios</h2>
+    <form name="NuevoEstudio">
+      <p>
+        <label for="anio">Año</label>
+        <select id="anio">
+          <option value="2017">2017</option>
+          <option value="2016">2016</option>
+          <option value="2015">2015</option>
+        </select>
+      </p>
+      <p>
+        <label for="institucion">Institución</label>
+        <input type="text" id="institucion" required>
+      </p>
+      <p>
+        <label for="lugar">Lugar</label>
+        <textarea id="lugar" rows="3" cols="60"></textarea>
+      </p>
+      <p>
+        <label for="culmino">¿Culminó?</label>
+        <input type="radio" name="culmino" value="S">
+        <label for="culmino">Si</label>
+
+        <input type="radio" name="culmino" value="N">
+        <label for="culmino">No</label>
+      </p>
+      <p>
+        <input type="submit" value="Enviar">
+      </p>
+
+    </form>
+
+
+    <footer>
+      © Todos los derechos reservados.
+      <ul>
+        <li><strong>Correo eléctrónico:</strong> <a href="mailto:valquissira@gmail.com?subject=feedback">valquissira@gmail.com</a></li>
+        <li><strong>Teléfono:</strong> +52 722 748 3828</li>
+        <li><strong>Facebook:</strong><a href="https://www.facebook.com/valquissira" target="_blank"> valquissira</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
